@@ -5,11 +5,14 @@ Data: 2019
 
 Este código foi compilado como DLL para execução na versão PSIM Professional Version 9.0.3.400.
 
-Entradas:
+*Entradas:*
+
   vpv - tensão os terminais dos painéis
+  
   ipv - corrente de saída dos painéis
 
-Saídas:
+*Saídas:*
+
   d - ciclo de trabalho
   
 Log:
