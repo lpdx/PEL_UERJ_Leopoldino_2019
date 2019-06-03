@@ -20,12 +20,6 @@
 #include <stdint.h> // para usar uint_8
 
 
-/** @todo fixed-width integers/
-
-//#include <time.h> // para usar time
-
-/* @see https://www.youtube.com/watch?v=xPkRL_Gt6PI&list=PLCs1uuuARiRSOIqCaXM4BL4pCIZxapUPB&index=21*/
- 
 /********************************************************
 *   PASSOS
 *
@@ -125,15 +119,13 @@ DLLPSIM void OpenSimUser (const char *szId,
 {  
 #if DEBUG == 1
     seed = 1401591674;
-    //1535037040 // levando gbest pra VARMIN
-
+ 
 #else
     seed = (unsigned int)time (NULL);   /** para garantir que rand() sempre sejam numeros distintos*/
-#endif
-    seed = 1401591674;
-    seed = 0;
-    srand (seed);
     ite_debug = 0;
+#endif
+    srand (seed);
+    
 #if DEBUG==1
     // Loggando dados
     fptr = fopen (LOG_PATH, "w");
@@ -306,12 +298,6 @@ DLLPSIM void RunSimUser (double t,
                 {
                     ite_debug++;
                 }
-               
-                /****************************************************************
-                
-                                    TRECHO BUGGADO                
-                
-                ****************************************************************/
                 
                 // se buffer estiver cheio, calcular as estatisticas
                // if (ite % max_idx_estatisticas==0){
