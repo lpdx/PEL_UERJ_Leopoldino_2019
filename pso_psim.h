@@ -102,7 +102,7 @@ struct gmpp_stats
 #define VARMAX         (float)0.999  // duty cicle maximo de busca
 #define JANELA_AMOSTRA (int)50       /** tamanho da janela para acumular os 
                                         resultados e tirar medias 50*/
-#define LOG_PATH       "C:\\Users\\Andre\\Desktop\\Dropbox\\mestrado\\sim\\fotocelula\\pso_psim_dll.csv"
+#define LOG_PATH       "C:\\pso_psim_dll.csv"
 #define LOG_HEADER     "exec_time; ite_id; particle_id; particle_cost; particle_position; particle_velocity; particle_best_cost;particle_best_position; global_best_cost; global_best_position;ppv_media;vpv_media;ipv_media;seed\n"
 #define POTENCIA_MAX_ARRANJO (float)400.0// potência máxima do arranjo de paineis
 #define THERESHOLD_UPDATE (float)0.01  /* para que seja realizada uma atualização 
@@ -111,11 +111,11 @@ struct gmpp_stats
                                         a atuação do dutycicle*/
 #define PI             (float)3.14159265358979323846
 #define TWO_O_PI       (float)2.0/PI
-#define DELTA_P_MIN    (float)0.05//0.03 //
+#define DELTA_P_MIN    (float)0.05
 #define MAX_SIZE_VETOR (unsigned int)3*NPOP_MAX       // Tamanho max do vetor de acumulo de 
 #define QTD_EPOCH_MEDIA (unsigned int) 1
 
-#define STD_POT_ESTAVEL (float)0.8//0.8 // identificando estabilidade na potencia 0.004 (25 epoch)
+#define STD_POT_ESTAVEL (float)0.8// identificando estabilidade na potencia
 #define W_INIT         (float)0.729
 #define D_INIT         (float)0.7
 /*******************************************************************************
