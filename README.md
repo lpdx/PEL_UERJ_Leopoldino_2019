@@ -3,4 +3,16 @@ Código fonte desenvolvido como parte da dissertação de mestrado do PEL-UERJ s
 Autor: Andre Leopoldino
 Data: 2019
 
-Este código foi compilado como DLL para execução na versão 9 do PSIM.
+Este código foi compilado como DLL para execução na versão PSIM Professional Version 9.0.3.400.
+
+Entradas:
+  vpv - tensão os terminais dos painéis
+  ipv - corrente de saída dos painéis
+
+Saídas:
+  d - ciclo de trabalho
+  
+Log:
+  Todas as variáveis internas.
+  
+  
