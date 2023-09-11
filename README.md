@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/189894521.svg)](https://zenodo.org/badge/latestdoi/189894521)
+
 # PEL_UERJ_Leopoldino_2019
 Código fonte desenvolvido como parte da dissertação de mestrado do PEL-UERJ sob o título:"Estratégia híbrida para rastreamento de máxima potência em sistemas fotovoltaicos sombreados"
 Autor: Andre Leopoldino
@@ -19,3 +21,6 @@ Log:
   Todas as variáveis internas.
   
   
+Cited as:
+
+> LEOPOLDINO, André Luiz Marques. Estratégia híbrida para rastreamento de máxima potência em sistemas fotovoltaicos sombreados. 2019. 96 f. Dissertação (Mestrado em Redes de Telecomunicações; Sistemas Inteligentes e Automação) - Universidade do Estado do Rio de Janeiro, Rio de Janeiro, 2019. http://www.bdtd.uerj.br/handle/1/11761
