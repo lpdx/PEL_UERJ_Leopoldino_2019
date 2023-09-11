@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: If you use this software, please cite it using these metadata.
+title: Hybrid strategy for tracking peak power in shaded photovoltaic systems
+abstract: Source code developed as part of my masters in electronics system engineering at the Programa de Pós-Graduação em Engenharia Eletrônica (PEL) at UERJ/BR.
+authors:
+  - family-names: Marques Leopoldino
+    given-names: André Luiz
+    orcid: "https://orcid.org/0000-0003-4483-718X"
+  - name: André Luiz Marques Leopoldino
+version: 1.0.0
+date-released: "2019-06-03"
+identifiers:
+  - description: This is the source code used in my masters dissertation for simulating PSO in PSIM.
+    type: doi
+    value: "10.5281/zenodo.8334878"
+license: Apache-2.0
+repository-code: "https://github.com/lpdx/PEL_UERJ_Leopoldino_2019"
