@@ -24,3 +24,7 @@ Log:
 Cited as:
 
 > LEOPOLDINO, André Luiz Marques. Estratégia híbrida para rastreamento de máxima potência em sistemas fotovoltaicos sombreados. 2019. 96 f. Dissertação (Mestrado em Redes de Telecomunicações; Sistemas Inteligentes e Automação) - Universidade do Estado do Rio de Janeiro, Rio de Janeiro, 2019. http://www.bdtd.uerj.br/handle/1/11761
+
+
+This code can be cited as:
+LEOPOLDINO, André Luiz Marques. Estratégia híbrida para rastreamento de máxima potência em sistemas fotovoltaicos sombreados. 2019. 96 f. Dissertação (Mestrado em Redes de Telecomunicações; Sistemas Inteligentes e Automação) - Universidade do Estado do Rio de Janeiro, Rio de Janeiro, 2019. http://www.bdtd.uerj.br/handle/1/11761. DOI: 10.5281/zenodo.8334877.
